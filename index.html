@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link de script desde la página de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Clase Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Lugares Mágicos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/wonderful_swiss?igshid=MzMyNGUyNmU2YQ%3D%3D"
+                            target="_blank">Instagram</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Información
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.youtube.com/shorts/_9XWrUSM0hA"
+                                    target="_blank">Cómo viajar</a></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=cBQumoWA2TA"
+                                    target="_blank">Casi perfecto</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=l7OrjaV2cDs"
+                                    target="_blank">¿Cuánto cuesta?</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="card" style="width: 18rem;">
+        
+        <img src="Imagenes/blauss.jpg" class="card-img-top" alt="Imagen de una cabaña en un lago suizo">
+        <div class="card-body">
+            <h5 class="card-title badge text-bg-info">Blausee, Kandergrund</h5>
+            <p class="card-text">Uno de los lagos de montaña más famosos de Suiza debido al particular color de
+                sus cristalinas aguas provenientes de fuentes subterráneas.
+            </p>
+            <a href="https://www.myswitzerland.com/es/destinos/blausee/" class="btn btn-warning"
+                target="_blank">Detalles</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://images5.bovpg.net/fw/back/es/sale/5d372f875f4a6o.jpg" class="card-img-top"
+            alt="Imagen de Ginebra, Suiza">
+        <div class="card-body">
+            <h5 class="card-title badge text-bg-info"">Ginebra</h5>
+            <p class="card-text">Una de las ciudades más importantes de Suiza. Elegida como sede de las organizaciones
+                internacionales más reconocidas a nivel mundial.
+            </p>
+            <a href="https://www.voyagetips.com/es/que-hacer-en-ginebra/#1_El_Jet_d8217Eau_de_Ginebra"
+                class="btn btn-warning" target="_blank">Detalles</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://content.skyscnr.com/m/3eff5b3d743d48bb/original/GettyImages-486348592.jpg?resize=1800px:1800px&quality=100"
+        class="card-img-top" alt="Imagen de una cabaña en un lago suizo">
+        <div class="card-body">
+            <h5 class="card-title badge text-bg-info"">Lucerna y el Puente de la Capilla</h5>
+            <p class="card-text">Atraviesa el río Reuss y une la parte vieja con la nueva de la ciudad de Lucerna. Junto a la Torre de Agua,
+                constituye uno de los monumentos más fotografiados de Suiza.
+            </p>
+            <a href="https://www.myswitzerland.com/es/destinos/lucerna/" class="btn btn-warning"
+                target="_blank">Detalles</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://s1.1zoom.me/b5050/43/Switzerland_Houses_467737_3840x2400.jpg" 
+        class="card-img-top" alt="Imagen de atardecer en invierno">
+        <div class="card-body">
+          <p class="card-text">Conoce más sitios para visitar en tu viaje a Suiza.</p>
+          <a href="https://www.espanol.skyscanner.com/noticias/los-15-lugares-mas-bonitos-que-ver-en-suiza" class="btn btn-warning"
+          target="_blank">Información</a>
+        </div>
+      </div>
+
+</body>
+<!--Link de script desde la página de Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
